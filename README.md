@@ -80,7 +80,7 @@ on: [push]
 jobs:
   build:
     name: My Build Job
-    runs-on: ubuntu-latest
+    runs-on: goto-linux
 
     steps:
       - name: Checkout Code
