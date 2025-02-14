@@ -80,7 +80,8 @@ on: [push]
 jobs:
   build:
     name: My Build Job
-    runs-on: goto-linux
+    runs-on:
+      group: goto-linux
 
     steps:
       - name: Checkout Code
